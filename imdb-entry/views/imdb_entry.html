@@ -1,0 +1,23 @@
+
+<!doctype HTML>
+<html>
+  <head><title>Movie Collection</title></head>
+  <body>
+        <table>
+        {% for entry in entries %}
+          <tr>
+            <td>title: {{entry.title}}</td>
+<td>
+            year: {{entry.year}}
+
+</td>
+
+<td>
+            imdb: {{entry.imdb}}
+            </td>
+        {% endfor %}
+          </table>
+
+  </body>
+</html>
+
